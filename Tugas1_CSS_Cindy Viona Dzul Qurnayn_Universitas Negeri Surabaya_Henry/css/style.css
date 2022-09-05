@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+*{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: gainsboro;
+}
+
+legend{
+    color: mediumvioletred;
+}
+
+/* HEADER */
+header table{
+    /* border: double; */
+    width:80%; 
+    margin-left: 150px; 
+    /* column-gap: 20px; */
+}
+
+header span{
+    color: mediumvioletred;
+}
+
+header thead h1{
+    font-size: 3rem;
+}
+
+header fieldset{
+    background-color: rgb(204, 199, 199);
+    border-radius: 10%;
+    margin-bottom: 4rem;
+}
+
+header img{
+    border-radius: 5%;
+}
+
+header tbody h1, header tbody h3{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+/* MAIN */
+main{
+    margin: 2rem 10%;
+}
+
+main img{
+    padding-left: 300px;
+}
+
+main span{
+    color: mediumvioletred;
+}
+
+main legend{
+    border: 5px groove mediumorchid;
+    border-radius: 50%;
+    font-size: larger;
+}
+
+/* FOOTER */
+footer p{
+    text-align: center;
+    font-size: small;
+}
+
+footer span{
+    color: lightcoral;
+}
